@@ -13,12 +13,14 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "@/*": ["./*"]
     }
   },
   "include": [
     "next-env.d.ts",
+    "swiper.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",

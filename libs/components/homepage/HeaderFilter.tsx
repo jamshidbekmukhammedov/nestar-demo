@@ -7,7 +7,7 @@ const HeaderFilter = () => {
     <>
       <Stack className="search-box">
         <Stack className="select-box">
-          <Box component={"div"} className="box on">
+          <Box component="div" className="box on">
             <span>Location</span>
             <ExpandMoreIcon />
           </Box>
@@ -20,6 +20,7 @@ const HeaderFilter = () => {
             <ExpandMoreIcon />
           </Box>
         </Stack>
+
         <Stack className="search-box-other">
           <Box className="advanced-filter">
             <img src="/img/icons/tune.svg" alt="" />
